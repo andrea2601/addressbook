@@ -41,8 +41,10 @@ export default function Home() {
     let contacts = contactList;
     if (id > -1) {
       contacts.splice(id, 1);
+      console.log(contacts)
       setContactListFilter(contacts);
       setContactList(contacts);
+      setPhoneId("");
     }
   }, [phoneId]);
 
