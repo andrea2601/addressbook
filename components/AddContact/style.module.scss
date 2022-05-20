@@ -1,0 +1,10 @@
+.AddContact{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 15px;
+    *{
+        width: 100%;
+    }
+}
